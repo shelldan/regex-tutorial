@@ -25,7 +25,7 @@ Each component of this regex has a unique responsibility to make sure that a use
 
 A regex is considered a literal, so the pattern must be wrapped in slash characters `/`. If we examine the 'Matching an Email' regex, you'll see that this is true:
 
-`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+`/`^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$`/`
 
 Now let's take a look at the components of a regex. 
 
